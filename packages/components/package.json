@@ -1,6 +1,6 @@
 {
-  "name": "kitty-plus",
-  "version": "1.0.2",
+  "name": "@ylcode/components-test",
+  "version": "1.0.0",
   "main": "index.ts",
   "scripts": {
     "build": "vite build",
@@ -11,14 +11,15 @@
     "lib"
   ],
   "keywords": [
-    "kitty-plus",
+    "杨亮",
     "vue2组件库"
   ],
-  "author": "Wick Magic",
+  "author": "docterly",
   "license": "MIT",
-  "description": "",
+  "description": "组件库模板测试",
   "typings": "lib/index.d.ts",
   "dependencies": {
-    "@kitty-plus/utils": "workspace:0.0.1"
+    "@kitty-plus/utils": "workspace:0.0.1",
+    "@ylcode/utils": "workspace:0.0.1"
   }
 }

@@ -1,6 +1,6 @@
 {
-  "name": "kitty-plus",
-  "version": "1.0.1",
+  "name": "@ylcode/components-test",
+  "version": "1.0.2",
   "main": "lib/index.js",
   "module": "es/index.mjs",
   "files": [
@@ -8,16 +8,13 @@
     "lib"
   ],
   "keywords": [
-    "kitty-plus",
+    "杨亮",
     "vue2组件库"
   ],
-  "dependencies": {
-    "@kitty-plus/utils": "0.0.1"
-  },
   "sideEffects": [
     "**/*.css"
   ],
-  "author": "Wick Magic <tomato.stao@gmail.com>",
+  "author": "yang liang <420407904@qq.com>",
   "license": "GPL-3.0",
   "description": "",
   "typings": "lib/index.d.ts"

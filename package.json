@@ -1,5 +1,5 @@
 {
-  "name": "kitty-plus",
+  "name": "@ylcode/components-test",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
@@ -7,9 +7,10 @@
   "author": "Wick Magic",
   "license": "ISC",
   "scripts": {
-    "build:kitty": "gulp -f packages/components/script/build/gulpfile.ts",
-    "publish:kitty": "gulp -f packages/components/script/publish/gulpfile.ts",
+    "build:com": "gulp -f packages/components/script/build/gulpfile.ts",
+    "publish:com": "gulp -f packages/components/script/publish/gulpfile.ts",
     "build:utils": "pnpm run --filter ./packages/utils build",
+    "publish:utils": "npm push --prefix ./packages/utils",
     "docs:dev": "pnpm run --filter ./site docs:dev",
     "docs:build": "pnpm run --filter ./site docs:build",
     "docs:serve": "pnpm run --filter ./site docs:serve",

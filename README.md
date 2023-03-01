@@ -17,11 +17,11 @@
 
 ## 打包
 
-  `pnpm run build:kitty`
+  `pnpm run build:com`
 
 ## 发布
 
-  `pnpm run publish:kitty`
+  `pnpm run publish:com`
 
 ## 启动文档 (基于 vitePress 仅支持 vue@^3.0)
 

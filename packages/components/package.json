@@ -14,6 +14,9 @@
     "杨亮",
     "vue2组件库"
   ],
+  "publishConfig": {
+    "registry": "http://172.16.0.196:4873"
+  },
   "author": "docterly",
   "license": "MIT",
   "description": "组件库模板测试",

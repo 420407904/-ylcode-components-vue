@@ -1,6 +1,6 @@
 {
   "name": "@ylcode/components-test",
-  "version": "1.0.2",
+  "version": "1.0.9",
   "main": "lib/index.js",
   "module": "es/index.mjs",
   "files": [
@@ -11,6 +11,9 @@
     "杨亮",
     "vue2组件库"
   ],
+  "publishConfig": {
+    "registry": "http://172.16.0.196:4873"
+  },
   "sideEffects": [
     "**/*.css"
   ],

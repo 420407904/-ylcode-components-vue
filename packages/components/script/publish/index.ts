@@ -12,7 +12,6 @@ export const publish = async () => {
     //复制到dist目录
     await copypackage();
     //在dist下执行发布命令
-    await run('npm publish --access=public', `${componentPath}/dist`);
+    await run('npm publish', `${componentPath}/dist`);
     // run('pnpm publish')
-
 };
